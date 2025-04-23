@@ -1,6 +1,5 @@
 import React from 'react';
 import '../assets/css/About.css';
-
 import { FaCalendarAlt, FaClock } from 'react-icons/fa';
 import { IoIosArrowDroprightCircle } from 'react-icons/io';
 const dates = [

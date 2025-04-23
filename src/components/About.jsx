@@ -1,7 +1,8 @@
 import React from 'react';
 import '../assets/css/About.css';
-import { FaCalendarAlt, FaClock } from 'react-icons/fa';
-import { FaCircleArrowRight } from "react-icons/fa6";
+
+import { FaCircleArrowRight, FaClock } from "react-icons/fa6";
+import { FaCalendarAlt } from 'react-icons/fa';
 const dates = [
   { icon: <FaCalendarAlt />, title: '02th October 2014', subtitle: 'Level 1 exam' },
   { icon: <FaCalendarAlt />, title: 'Nov-Dec 2016', subtitle: 'Level 2', desc: 'Lorem Ipsum\nLorem Ipsum' },

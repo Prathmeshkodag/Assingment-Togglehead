@@ -1,11 +1,10 @@
 import React from 'react';
 import '../assets/css/Footer.css';
 import { CiFacebook } from 'react-icons/ci';
-import { FaInstagram, FaLinkedin, FaTwitterSquare, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaTrain, FaTwitterSquare, FaYoutube } from 'react-icons/fa';
 import { SiQase } from 'react-icons/si';
 import { RiMapPin2Fill } from 'react-icons/ri';
 import { LuAlarmClock } from 'react-icons/lu';
-import { FaTrainSubway } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -36,7 +35,7 @@ const Footer = () => {
             <li><RiMapPin2Fill /> Lorem ipsum dolor sit amet</li>
             <li><LuAlarmClock /> Mon - Fri: 9:00 AM - 6:00 PM</li>
             <li><LuAlarmClock /> Sat: 10:00 AM - 4:00 PM</li>
-            <li><FaTrainSubway /> Near Central Station</li>
+            <li><FaTrain /> Near Central Station</li>
           </ul>
         </div>
       </div>

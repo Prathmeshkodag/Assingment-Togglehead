@@ -1,6 +1,6 @@
 import React from "react";
 import '../assets/css/Stats.css';
-const StatsSection = () => {
+const Stats = () => {
     const stats = [
         {
           heading: 'Lorem ipsum',
@@ -43,4 +43,4 @@ const StatsSection = () => {
     );
   };
   
-  export default StatsSection;
+  export default Stats;

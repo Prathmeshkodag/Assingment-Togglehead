@@ -1,22 +1,9 @@
-import About from "./components/About";
-import Faq from "./components/FAQ";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import StatsSection from "./components/Stats";
-import Subscribe from "./components/SubScribe";
-
+import Main from "./components/Main";
 
 function App() {
   return (
-    <div >
-     <Navbar/>
-     <Home/>
-     <About/>
-     <StatsSection/>
-     <Faq/>
-     <Subscribe/>
-     <Footer/>
+    <div>
+      <Main/>
     </div>
   );
 }
